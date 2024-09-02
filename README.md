@@ -1,4 +1,14 @@
 # SE_Project
+## Sample Pages from This Project
+
+![image](https://github.com/user-attachments/assets/c0705839-4a43-48a9-8b05-4908e5bad8b8)
+![image](https://github.com/user-attachments/assets/16fb36a1-fde1-4322-b3b8-bba55bd0700f)
+![image](https://github.com/user-attachments/assets/e5130e70-327c-4d2e-914c-0768e8d51480)
+![image](https://github.com/user-attachments/assets/abca2c1c-46da-45d1-8247-259a586d5e21)
+![image](https://github.com/user-attachments/assets/4f87caa7-f115-4e3a-a36c-d8b3e13f5949)
+![image](https://github.com/user-attachments/assets/ea334313-7ddf-40cb-bd10-a0b23bf00258)
+
+# How to run code
 
 ## Development server
 
