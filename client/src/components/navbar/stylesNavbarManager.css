@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box ;
+}
+
+body {
+    margin: 0 ;
+}
+
+.container{
+    margin: 1rem;
+    text-align: center;
+}
+
+.nav {
+    background-color: #b00000 !important;
+    color: white !important;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    align-items: stretch;
+    gap : 2rem;
+    padding: 0 1rem;
+
+}
+
+.site-title {
+    font-size : 2rem;
+    margin-top: 10px;
+}
+.site-title-b2 {
+    font-size : 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    /* color is so important */
+    color: inherit;   
+    /* text underline  == text-decoration  */
+    text-decoration: none;
+    height: 100%;
+    display : flex ;
+    align-items: center;
+    padding: .25rem;
+}
+
+.nav li.active{
+    background-color:  #000;
+}
+
+.nav li:hover {
+    background-color: #000; /* เปลี่ยนสีพื้นหลังเป็นสีดำ */
+    color: #fff; /* เปลี่ยนสีข้อความเป็นสีขาว (หากต้องการ) */
+}
+
+.nav li:hover > ul {
+    display: block; /* แสดงเมนูที่ซ่อนอยู่ */
+}
+
+//add
+.custom-dropdown-button {
+    background-color: #ffffff; /* สีพื้นหลังเขียว */
+    color: black; /* สีตัวอักษรขาว */
+    border: 5px; /* เอาขอบออก (ถ้าต้องการ) */
+}
+
+.custom-dropdown-button .dropdown-toggle {
+    background-color: #000080;
+    color: white; 
+    border: none;
+    margin-top: 12px;
+}
+
+.custom-dropdown-button .dropdown-menu {
+    background-color: #808080; 
+    border: none;
+    margin-top: 9px;
+}
+
+.custom-dropdown-button .dropdown-item {
+    color: white;
+}
+
+.custom-dropdown-button .dropdown-item:hover {
+    background-color: #575757; 
+    color: white; /* สีตัวอักษรขาว */
+    border: none;
+}
+
+
+
+
+
